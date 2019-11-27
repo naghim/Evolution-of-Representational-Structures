@@ -71,7 +71,7 @@ class Environment:
             for i in range(0, 10):
                 for j in range(0, 10):
                     if i == 0 or i == self.n or j == 0 or j == self.m:
-                        self.rows[i][j] = 2
+                        self.rows[i][j] = WALL
                     else:
                         self.rows[i][j] = environment_values()
 
